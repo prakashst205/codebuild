@@ -49,11 +49,6 @@ def main():
         logging.info(f'    VPC ID: {instance_info["VpcId"]}')
         logging.info(f'    Private IP Address: {instance_info["PrivateIpAddress"]}')
         logging.info(f'    Current State: {instance_info["State"]["Name"]}')
-        commands:
-      - chmod +x s3bucket.py
-      - python s3bucket.py
-        
-
-
+                   
 if __name__ == '__main__':
     main()
