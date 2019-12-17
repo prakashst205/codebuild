@@ -34,7 +34,7 @@ def main():
     """Exercise create_ec2_instance()"""
 
     # Assign these values before running the program
-    image_id = 'ami-0fb8890c7a7ca1457'
+    image_id = 'ami-0119aa4d67e59007c'
     instance_type = 't2.micro'
     keypair_name = 'ec2_instance'
 
