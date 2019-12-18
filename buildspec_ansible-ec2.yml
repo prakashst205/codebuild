@@ -15,5 +15,5 @@ Phases:
       - yum -y install jq
   build:
     commands:
-      - chmod +x ec2_instance.py
-      - python ec2_instance.py
+      - chmod +x ansible.yml
+      - ansible-playbook ansible.yml
