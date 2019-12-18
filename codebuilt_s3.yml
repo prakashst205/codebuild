@@ -16,5 +16,5 @@ Phases:
   build:
     commands:
       - chmod +x s3bucket.py
-      - python s3bucketttt.py
+      - python s3bucket.py
       #
